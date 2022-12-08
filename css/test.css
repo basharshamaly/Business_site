@@ -1,0 +1,826 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+  opacity: 0.5;
+}
+main.main {
+  background-color: rgba(0, 0, 255, 0.719);
+  width: 100%;
+  min-height: 50vh;
+}
+
+main.main header.hedar {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  z-index: 999;
+  top: 0px;
+  background-color: rgb(0, 0, 255);
+}
+main.main header.hedar div.leftsec {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 70px;
+  margin: 25px;
+}
+main.main header.hedar div.leftsec span img.im {
+  filter: contrast(0%);
+  -webkit-filter: contrast(0%);
+}
+main.main header.hedar div.rightsec {
+  margin: 25px;
+}
+
+main.main header.hedar div.leftsec nav.navigation {
+  display: flex;
+  gap: 35px;
+  font-weight: bold;
+  font-size: 22px;
+}
+main.main header.hedar div.leftsec nav.navigation a:hover {
+  opacity: 0.8;
+}
+main.main header.hedar div.leftsec nav.navigation a#hom {
+  opacity: 0.8;
+}
+
+.fa-solid {
+  margin-right: 80px;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  text-align: center;
+  color: white;
+  border-radius: 50%;
+  padding: 10px;
+  border: solid 1px;
+  font-weight: bold;
+  font-size: 15px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+main.main div.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main.main div.hero div.lefthero,
+main.main div.hero div.righthero {
+  width: 100%;
+  margin: 50px;
+  gap: 30px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main.main div.hero div.lefthero h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+}
+main.main div.hero div.lefthero p {
+  opacity: 0.8;
+  color: white;
+  font-size: 20px;
+}
+main.main div.hero div.lefthero div.vide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main.main div.hero div.lefthero div.vide i.fa-solid {
+  background-color: white;
+  color: black;
+  transform: translate(-180%, 25%);
+  padding: 20px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-transform: translate(-180%, 25%);
+  -moz-transform: translate(-180%, 25%);
+  -ms-transform: translate(-180%, 25%);
+  -o-transform: translate(-180%, 25%);
+}
+main.main div.hero div.lefthero div.vide h5 {
+  color: white;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 20px;
+  transform: translate(-150%, 90%);
+  -webkit-transform: translate(-150%, 90%);
+  -moz-transform: translate(-150%, 90%);
+  -ms-transform: translate(-150%, 90%);
+  -o-transform: translate(-150%, 90%);
+}
+main.main div.hero div.lefthero button {
+  color: blue;
+  background-color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 30px;
+  border: 1px solid transparent;
+  border-radius: 5%;
+  padding: 15px 30px;
+  transform: translate(-40%, 0%);
+  -webkit-transform: translate(-40%, 0%);
+  -moz-transform: translate(-40%, 0%);
+  -ms-transform: translate(-40%, 0%);
+  -o-transform: translate(-40%, 0%);
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
+}
+
+main.main div.hero div.righthero img {
+  width: 100%;
+  height: 450px;
+  border-bottom-left-radius: 2%;
+  border-bottom-right-radius: 2%;
+}
+/* end main */
+
+/* start section about */
+
+section#hom {
+  background-color: rgba(238, 238, 238, 0.356);
+  width: 100%;
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+section#hom div.leftabout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 30px;
+}
+section#hom div.leftabout img {
+  height: 570px;
+}
+section#hom div.rightabout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px 30px;
+}
+section#hom div.rightabout div.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-105%, 0%);
+  -webkit-transform: translate(-105%, 0%);
+  -moz-transform: translate(-105%, 0%);
+  -ms-transform: translate(-105%, 0%);
+  -o-transform: translate(-105%, 0%);
+}
+section#hom div.rightabout div.title i.fa-store {
+  color: blue;
+  border: transparent;
+}
+section#hom div.rightabout div.title h2 {
+  transform: translate(-60%, 0%);
+  -webkit-transform: translate(-60%, 0%);
+  -moz-transform: translate(-60%, 0%);
+  -ms-transform: translate(-60%, 0%);
+  -o-transform: translate(-60%, 0%);
+}
+
+section#hom div.rightabout div.desc {
+  font-weight: bold;
+  font-size: 30px;
+  width: 70%;
+  transform: translate(-24%, 20%);
+  -webkit-transform: translate(-24%, 20%);
+  -moz-transform: translate(-24%, 20%);
+  -ms-transform: translate(-24%, 20%);
+  -o-transform: translate(-24%, 20%);
+}
+section#hom div.rightabout div.but {
+  background-color: darkgrey;
+  transform: translate();
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding: 20px;
+  -webkit-transform: translate(-24%, 70%);
+  -moz-transform: translate();
+  -ms-transform: translate();
+  -o-transform: translate();
+}
+
+section#hom div.rightabout div.but button.bt1 {
+  background-color: blue;
+  padding: 10px 15px;
+  border: transparent;
+}
+section#hom div.rightabout div.but button.bt2,
+section#hom div.rightabout div.but button.bt3 {
+  background-color: white;
+  padding: 10px 15px;
+  border: transparent;
+}
+
+section#hom div.rightabout div.but button.bt1 a {
+  opacity: 1;
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+}
+section#hom div.rightabout div.but button.bt2 a,
+section#hom div.rightabout div.but button.bt3 a {
+  opacity: 1;
+  font-weight: bold;
+  font-size: 15px;
+  color: black;
+}
+section#hom div.rightabout div.fot {
+  transform: translate(-30%, 50%);
+  margin: 30px 0px;
+  opacity: 0.5;
+  width: 70%;
+  font-weight: normal;
+  font-size: 20px;
+  -webkit-transform: translate(-25%, 40%);
+  -moz-transform: translate(-30%, 50%);
+  -ms-transform: translate(-30%, 50%);
+  -o-transform: translate(-30%, 50%);
+}
+section#hom div.rightabout div.fot h5 {
+  margin-top: 20px;
+}
+
+section.service {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 10px;
+
+  min-height: 100vh;
+}
+section.service div.topservice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transform: translate(0%, -40%);
+  -webkit-transform: translate(0%, -40%);
+  -moz-transform: translate(0%, -40%);
+  -ms-transform: translate(0%, -40%);
+  -o-transform: translate(0%, -40%);
+}
+
+section.service div.topservice button {
+  background-color: white;
+  padding: 15px 30px;
+  border-color: blue;
+  border-radius: 55%;
+  transform: translate(0%, -20%);
+  -webkit-border-radius: 55%;
+  -moz-border-radius: 55%;
+  -ms-border-radius: 55%;
+  -o-border-radius: 55%;
+  -webkit-transform: translate(0%, -20%);
+  -moz-transform: translate(0%, -20%);
+  -ms-transform: translate(0%, -20%);
+  -o-transform: translate(0%, -20%);
+}
+section.service div.topservice button a {
+  color: blue;
+}
+section.service div.topservice h1 {
+  font-weight: bold;
+  font-size: 35px;
+}
+section.service div.topservice p {
+  width: 420px;
+  text-align: center;
+  opacity: 0, 5;
+  font-size: 15px;
+  transform: translate(0%, 30%);
+  -webkit-transform: translate(0%, 30%);
+  -moz-transform: translate(0%, 30%);
+  -ms-transform: translate(0%, 30%);
+  -o-transform: translate(0%, 30%);
+}
+
+section.service div.botoomservice {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  transform: translate(0%, 50%);
+  -webkit-transform: translate(0%, 50%);
+  -moz-transform: translate(0%, 50%);
+  -ms-transform: translate(0%, 50%);
+
+  -o-transform: translate(0%, 50%);
+}
+
+section.service div.botoomservice div.box1,
+section.service div.botoomservice div.box2,
+section.service div.botoomservice div.box3,
+section.service div.botoomservice div.box4,
+section.service div.botoomservice div.box5,
+section.service div.botoomservice div.box6 {
+  display: flex;
+  flex-direction: column;
+  width: calc(80% / 3);
+  box-shadow: 0 0 3px 0px black;
+  height: 150px;
+  margin: 35px 30px;
+  transition: 2s;
+  transform: translate(-1%, -140%);
+  -webkit-transform: translate(-1%, -140%);
+  -moz-transform: translate(-1%, -140%);
+  -ms-transform: translate(-1%, -140%);
+  -o-transform: translate(-1%, -140%);
+  -webkit-transition: 2s;
+  -moz-transition: 2s;
+  -ms-transition: 2s;
+  -o-transition: 2s;
+}
+
+section.service div.botoomservice div.box1 i.fa-heart {
+  background-color: white;
+  transform: translate(20%, 30%);
+  width: fit-content;
+  padding: 10px;
+  border-radius: 50%;
+  color: blue;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-transform: translate(20%, 30%);
+  -moz-transform: translate(20%, 30%);
+  -ms-transform: translate(20%, 30%);
+  -o-transform: translate(20%, 30%);
+}
+section.service div.botoomservice div.box1 i.fa-heart:hover {
+  background-color: blue;
+  color: white;
+}
+section.service div.botoomservice div.box1 h1 {
+  transform: translate(3%, 70%);
+  -webkit-transform: translate(3%, 70%);
+  -moz-transform: translate(3%, 70%);
+  -ms-transform: translate(3%, 70%);
+  -o-transform: translate(3%, 70%);
+}
+
+section.service div.botoomservice div.box1 p {
+  transform: translate(3%, 50%);
+  -webkit-transform: translate(3%, 80%);
+  -moz-transform: translate(3%, 50%);
+  -ms-transform: translate(3%, 50%);
+  -o-transform: translate(3%, 50%);
+}
+
+section.service div.botoomservice div.box1:hover {
+  transform: translate(0%, -10%);
+  -moz-transform: translate(0%, -10%);
+  -ms-transform: translate(0%, -10%);
+  -o-transform: translate(0%, -10%);
+  -webkit-transform: translate(0%, -10%);
+}
+
+section.service div.botoomservice div.box2 i.fa-bootstrap {
+  background-color: white;
+  transform: translate(20%, 30%);
+  width: fit-content;
+  padding: 10px;
+  border-radius: 50%;
+  color: blue;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-transform: translate(20%, 30%);
+  -moz-transform: translate(20%, 30%);
+  -ms-transform: translate(20%, 30%);
+  -o-transform: translate(20%, 30%);
+}
+section.service div.botoomservice div.box2 i.fa-bootstrap:hover {
+  background-color: blue;
+  color: white;
+}
+section.service div.botoomservice div.box2 h1 {
+  transform: translate(3%, 70%);
+  -webkit-transform: translate(3%, 70%);
+  -moz-transform: translate(3%, 70%);
+  -ms-transform: translate(3%, 70%);
+  -o-transform: translate(3%, 70%);
+}
+section.service div.botoomservice div.box2 p {
+  transform: translate(3%, 50%);
+  -webkit-transform: translate(3%, 80%);
+  -moz-transform: translate(3%, 50%);
+  -ms-transform: translate(3%, 50%);
+  -o-transform: translate(3%, 50%);
+}
+
+section.service div.botoomservice div.box2:hover {
+  transform: translate(0%, -10%);
+  -moz-transform: translate(0%, -10%);
+  -ms-transform: translate(0%, -10%);
+  -o-transform: translate(0%, -10%);
+  -webkit-transform: translate(0%, -10%);
+}
+
+section.service div.botoomservice div.box3 i.fa-recycle {
+  background-color: white;
+  transform: translate(20%, 30%);
+  width: fit-content;
+  padding: 10px;
+  border-radius: 50%;
+  color: blue;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-transform: translate(20%, 30%);
+  -moz-transform: translate(20%, 30%);
+  -ms-transform: translate(20%, 30%);
+  -o-transform: translate(20%, 30%);
+}
+section.service div.botoomservice div.box3 i.fa-recycle:hover {
+  background-color: blue;
+  color: white;
+}
+section.service div.botoomservice div.box3 h1 {
+  transform: translate(3%, 70%);
+  -webkit-transform: translate(3%, 70%);
+  -moz-transform: translate(3%, 70%);
+  -ms-transform: translate(3%, 70%);
+  -o-transform: translate(3%, 70%);
+}
+section.service div.botoomservice div.box3 p {
+  transform: translate(3%, 50%);
+  -webkit-transform: translate(3%, 80%);
+  -moz-transform: translate(3%, 50%);
+  -ms-transform: translate(3%, 50%);
+  -o-transform: translate(3%, 50%);
+}
+
+section.service div.botoomservice div.box3:hover {
+  transform: translate(0%, -10%);
+  -moz-transform: translate(0%, -10%);
+  -ms-transform: translate(0%, -10%);
+  -o-transform: translate(0%, -10%);
+  -webkit-transform: translate(0%, -10%);
+}
+
+/* 4 */
+section.service div.botoomservice div.box4 i.fa-gauge {
+  background-color: white;
+  transform: translate(20%, 30%);
+  width: fit-content;
+  padding: 10px;
+  border-radius: 50%;
+  color: blue;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-transform: translate(20%, 30%);
+  -moz-transform: translate(20%, 30%);
+  -ms-transform: translate(20%, 30%);
+  -o-transform: translate(20%, 30%);
+}
+section.service div.botoomservice div.box4 i.fa-gauge:hover {
+  background-color: blue;
+  color: white;
+}
+section.service div.botoomservice div.box4 h1 {
+  transform: translate(3%, 70%);
+  -webkit-transform: translate(3%, 70%);
+  -moz-transform: translate(3%, 70%);
+  -ms-transform: translate(3%, 70%);
+  -o-transform: translate(3%, 70%);
+}
+section.service div.botoomservice div.box4 p {
+  transform: translate(3%, 50%);
+  -webkit-transform: translate(3%, 80%);
+  -moz-transform: translate(3%, 50%);
+  -ms-transform: translate(3%, 50%);
+  -o-transform: translate(3%, 50%);
+}
+
+section.service div.botoomservice div.box4:hover {
+  transform: translate(0%, -10%);
+  -moz-transform: translate(0%, -10%);
+  -ms-transform: translate(0%, -10%);
+  -o-transform: translate(0%, -10%);
+  -webkit-transform: translate(0%, -10%);
+}
+
+/* 5 */
+section.service div.botoomservice div.box5 i.fa-couch {
+  background-color: white;
+  transform: translate(20%, 30%);
+  width: fit-content;
+  padding: 10px;
+  border-radius: 50%;
+  color: blue;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-transform: translate(20%, 30%);
+  -moz-transform: translate(20%, 30%);
+  -ms-transform: translate(20%, 30%);
+  -o-transform: translate(20%, 30%);
+}
+section.service div.botoomservice div.box5 i.fa-couch:hover {
+  background-color: blue;
+  color: white;
+}
+section.service div.botoomservice div.box5 h1 {
+  transform: translate(3%, 70%);
+  -webkit-transform: translate(3%, 70%);
+  -moz-transform: translate(3%, 70%);
+  -ms-transform: translate(3%, 70%);
+  -o-transform: translate(3%, 70%);
+}
+section.service div.botoomservice div.box5 p {
+  transform: translate(3%, 50%);
+  -webkit-transform: translate(3%, 80%);
+  -moz-transform: translate(3%, 50%);
+  -ms-transform: translate(3%, 50%);
+  -o-transform: translate(3%, 50%);
+}
+
+section.service div.botoomservice div.box5:hover {
+  transform: translate(0%, -10%);
+  -moz-transform: translate(0%, -10%);
+  -ms-transform: translate(0%, -10%);
+  -o-transform: translate(0%, -10%);
+  -webkit-transform: translate(0%, -10%);
+}
+
+/* 6 */
+section.service div.botoomservice div.box6 i.fa-file-pen {
+  background-color: white;
+  transform: translate(20%, 30%);
+  width: fit-content;
+  padding: 10px;
+  border-radius: 50%;
+  color: blue;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-transform: translate(20%, 30%);
+  -moz-transform: translate(20%, 30%);
+  -ms-transform: translate(20%, 30%);
+  -o-transform: translate(20%, 30%);
+}
+section.service div.botoomservice div.box6 i.fa-file-pen:hover {
+  background-color: blue;
+  color: white;
+}
+section.service div.botoomservice div.box6 h1 {
+  transform: translate(3%, 70%);
+  -webkit-transform: translate(3%, 70%);
+  -moz-transform: translate(3%, 70%);
+  -ms-transform: translate(3%, 70%);
+  -o-transform: translate(3%, 70%);
+}
+section.service div.botoomservice div.box6 p {
+  transform: translate(3%, 50%);
+  -webkit-transform: translate(3%, 80%);
+  -moz-transform: translate(3%, 50%);
+  -ms-transform: translate(3%, 50%);
+  -o-transform: translate(3%, 50%);
+}
+
+section.service div.botoomservice div.box6:hover {
+  transform: translate(0%, -10%);
+  -moz-transform: translate(0%, -10%);
+  -ms-transform: translate(0%, -10%);
+  -o-transform: translate(0%, -10%);
+  -webkit-transform: translate(0%, -10%);
+}
+
+section.Pricing {
+  display: flex;
+  background-color: rgba(238, 238, 238, 0.274);
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 100vh;
+  margin: 10px;
+}
+
+section.Pricing div.topPricing {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  transform: translate(0%, 50%);
+  -webkit-transform: translate(0%, 50%);
+  -moz-transform: translate(0%, 50%);
+  -ms-transform: translate(0%, 50%);
+  -o-transform: translate(0%, 50%);
+}
+section.Pricing div.topPricing h1 {
+  transform: translate(0%, 50%);
+  -webkit-transform: translate(0%, 50%);
+  -moz-transform: translate(0%, 50%);
+  -ms-transform: translate(0%, 50%);
+  -o-transform: translate(0%, 50%);
+}
+section.Pricing div.topPricing p {
+  transform: translate(0%, 50%);
+  -webkit-transform: translate(0%, 120%);
+  -moz-transform: translate(0%, 50%);
+  -ms-transform: translate(0%, 50%);
+  -o-transform: translate(0%, 50%);
+}
+
+section.Pricing div.topPricing button {
+  width: fit-content;
+  padding: 10px;
+  transform: translate(3%, 5%);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-transform: translate(3%, 5%);
+  -moz-transform: translate(3%, 5%);
+  -ms-transform: translate(3%, 5%);
+  -o-transform: translate(3%, 5%);
+  border-color: blue;
+  background-color: white;
+}
+
+section.Pricing div.topPricing button a {
+  color: blue;
+  font-size: 20px;
+  font-weight: bold;
+  opacity: 1;
+}
+
+section.Pricing div.botoompricing {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+}
+
+section.Pricing div.botoompricing div.card1,
+section.Pricing div.botoompricing div.card3 {
+  display: flex;
+  border-top-left-radius: 3%;
+  border-bottom-right-radius: 3%;
+  border-bottom-left-radius: 3%;
+  border-top-right-radius: 3%;
+  background-color: turquoise;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: calc(95% / 3);
+  transform: translate(0%, 20%);
+  -webkit-transform: translate(0%, 20%);
+  -moz-transform: translate(0%, 20%);
+  -ms-transform: translate(0%, 20%);
+  -o-transform: translate(0%, 20%);
+  gap: 40px;
+  margin: 5px;
+}
+section.Pricing div.botoompricing div.card2 {
+  display: flex;
+  border-top-left-radius: 3%;
+  border-bottom-right-radius: 3%;
+  border-bottom-left-radius: 3%;
+  border-top-right-radius: 3%;
+  background-color: turquoise;
+  margin: 5px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: calc(100% / 3);
+  transform: translate(0%, 20%);
+  -webkit-transform: translate(0%, 20%);
+  -moz-transform: translate(0%, 20%);
+  -ms-transform: translate(0%, 20%);
+  -o-transform: translate(0%, 20%);
+  gap: 40px;
+  transition: 2s;
+  -webkit-transition: 2s;
+  -moz-transition: 2s;
+  -ms-transition: 2s;
+  -o-transition: 2s;
+}
+section.Pricing div.botoompricing div.card2:hover {
+  transform: rotateZ(10deg);
+
+  -webkit-transform: rotateZ(10deg);
+  -moz-transform: rotateZ(10deg);
+  -ms-transform: rotateZ(10deg);
+  -o-transform: rotateZ(10deg);
+}
+section.Pricing div.botoompricing div.card1 button,
+section.Pricing div.botoompricing div.card3 button {
+  background-color: white;
+  padding: 10px;
+  border-color: blue;
+  transform: translate(0%, 5%);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-transform: translate(0%, 5%);
+  -moz-transform: translate(0%, 5%);
+  -ms-transform: translate(0%, 5%);
+  -o-transform: translate(0%, 5%);
+}
+section.Pricing div.botoompricing div.card2 button {
+  background-color: blue;
+  padding: 10px;
+  border: transparent;
+  border-radius: 50%;
+  transform: translate(0%, 7%);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-transform: translate(0%, 7%);
+  -moz-transform: translate(0%, 7%);
+  -ms-transform: translate(0%, 7%);
+  -o-transform: translate(0%, 7%);
+}
+section.Pricing div.botoompricing div.card1 button a,
+section.Pricing div.botoompricing div.card3 button a {
+  color: blue;
+  opacity: 1;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+section.Pricing div.botoompricing div.card2 button a {
+  color: white;
+  opacity: 1;
+  font-weight: bold;
+  font-size: 20px;
+}
+section.Pricing div.botoompricing div.card1 p,
+section.Pricing div.botoompricing div.card3 p,
+section.Pricing div.botoompricing div.card2 p {
+  opacity: 0.6;
+  width: 220px;
+}
+section.Pricing div.botoompricing div.card1 div.clock1,
+section.Pricing div.botoompricing div.card1 div.clock3,
+section.Pricing div.botoompricing div.card1 div.clock2,
+section.Pricing div.botoompricing div.card1 div.clock4,
+section.Pricing div.botoompricing div.card2 div.clock1,
+section.Pricing div.botoompricing div.card2 div.clock3,
+section.Pricing div.botoompricing div.card2 div.clock2,
+section.Pricing div.botoompricing div.card2 div.clock4,
+section.Pricing div.botoompricing div.card3 div.clock1,
+section.Pricing div.botoompricing div.card3 div.clock3,
+section.Pricing div.botoompricing div.card3 div.clock2,
+section.Pricing div.botoompricing div.card3 div.clock4 {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+  transform: translate(20%, -100%);
+  -webkit-transform: translate(20%, -100%);
+  -moz-transform: translate(20%, -100%);
+  -ms-transform: translate(20%, -100%);
+  -o-transform: translate(20%, -100%);
+}
